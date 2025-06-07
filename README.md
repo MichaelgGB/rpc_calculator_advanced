@@ -28,3 +28,22 @@ python python -m iterative_tcp.server
 
 #In the second terminal fire up the client.py
 python main_programs/main_client.py
+
+#all the commands needed are below
+- python main_programs/main_client.py
+
+1. python -m iterative_tcp.server
+
+2. python -m concurrent_tcp.server_threads
+
+3. python -m concurrent_tcp.server_process
+
+4. python -m concurrent_tcp.server_asyncio
+
+5. python -m iterative_udp.server
+
+6. python -m concurrent_udp.server_threads
+
+7. python -m concurrent_udp.server_process
+
+8. python -m concurrent_udp.server_asyncio
